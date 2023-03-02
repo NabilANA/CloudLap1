@@ -14,6 +14,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+       // save to firebase
+
         save.setOnClickListener {
 
             var name = PersonName.text.toString()
